@@ -12,7 +12,7 @@ mongoose.connect('mongodb+srv://jkeejmee:yerin0316@boilerplate.kbpkhkq.mongodb.n
     .then(() => console.log('MongoDB Connected...'))
     .catch(err => console.log(err))
 app.get('/', (req, res) => {
-  res.send('Hello World! 안녕하세요')
+  res.send('Hello World! 안녕!!')
 })
 
 app.listen(port, () => {
